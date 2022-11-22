@@ -108,7 +108,7 @@ vnoremap("<leader>d", '"_d')
 inoremap("<C-c>", "<Esc>")
 
 -- Tabs --
-keymap("n", "<enter>", ":tabnew %<cr>", opts)
+keymap("n", "<a-enter>", ":tabnew %<cr>", opts)
 keymap("n", "<s-enter>", ":tabclose<cr>", opts)
 keymap("n", "<m-\\>", ":tabonly<cr>", opts)
 -- Change tabs
