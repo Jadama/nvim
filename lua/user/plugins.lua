@@ -53,6 +53,9 @@ local plugins = {
 			require("plugins.surround")
 		end,
 	},
+	
+	-- Repeat plugin actions
+	["tpope/vim-repeat"] = {},
 
 	-- Comment stuff
 	["numToStr/Comment.nvim"] = {
@@ -256,14 +259,6 @@ local plugins = {
 	-- Impatient optimize the startup time
 	["lewis6991/impatient.nvim"] = {},
 
-	-- Rust
-	["simrat39/rust-tools.nvim"] = {
-		config = function()
-			require("rust-tools").setup()
-		end,
-	},
-	["Saecki/crates.nvim"] = {},
-
 	-- Spectre: Better find and replace
 	["windwp/nvim-spectre"] = {
 		config = function()
@@ -275,13 +270,6 @@ local plugins = {
 	["sindrets/diffview.nvim"] = {
 		config = function()
 			require("diffview").setup()
-		end,
-	},
-
-	-- Tmux
-	["aserowy/tmux.nvim"] = {
-		config = function()
-			require("tmux").setup()
 		end,
 	},
 }
