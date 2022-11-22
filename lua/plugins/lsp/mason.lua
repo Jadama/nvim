@@ -39,9 +39,6 @@ mason_lsp.setup({
 		"clangd",
 		"dockerls",
 		"sumneko_lua",
-		"pyright",
-		"rust_analyzer",
-		"taplo",
 		"jsonls",
 	},
 	-- auto-install configured servers (with lspconfig)
@@ -54,10 +51,6 @@ mason_null_ls.setup({
 		"prettier", -- ts/js formatter
 		"stylua", -- lua formatter
 		"eslint_d", -- ts/js linter
-		"pylint", -- ts/js linter
-		"black",
-		"flake8",
-		"isort",
 	},
 	-- auto-install configured formatters & linters (with null-ls)
 	automatic_installation = true,

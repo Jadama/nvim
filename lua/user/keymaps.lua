@@ -36,7 +36,7 @@ keymap("n", "<leader>p", '"+p', opts)
 keymap("n", "<C-Space>", "<cmd>WhichKey \\<leader><cr>", opts)
 
 -- greatest remap ever
-xnoremap("<leader>p", '"_dP')
+-- xnoremap("<leader>p", '"_dP')
 
 -- next greatest remap ever : asbjornHaland
 nnoremap("<leader>y", '"+y')
