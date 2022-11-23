@@ -93,6 +93,12 @@ local plugins = {
 		end,
 	},
 
+  ["neovim/nvim-lspconfig"] = {
+		config = function()
+			require("plugins.lsp.lspconfig")
+		end,
+	},
+
 	["neoclide/coc.nvim"] = {
 		branch = "release",
     config = function()
@@ -160,7 +166,13 @@ local plugins = {
 			require("plugins.dressing")
 		end,
 	},
-  ['vim-airline/vim-airline'] ={},
+["SmiteshP/nvim-navic"] = {
+		config = function()
+			require("plugins.navic")
+		end,
+		requires = { { "neovim/nvim-lspconfig" } },
+	},
+  -- ['vim-airline/vim-airline'] ={},
 	["kshenoy/vim-signature"] = {},
 
 	-- Notification
