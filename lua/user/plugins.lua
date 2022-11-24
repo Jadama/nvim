@@ -93,6 +93,7 @@ local plugins = {
 		end,
 	},
 
+  -- LSP and Completion stuff
   ["neovim/nvim-lspconfig"] = {
 		config = function()
 			require("plugins.lsp.lspconfig")
@@ -105,6 +106,8 @@ local plugins = {
       require("plugins.coc")
     end
 	},
+
+  ["github/copilot.vim"] = {},
 
 	-- Treesitter
 	["nvim-treesitter/nvim-treesitter"] = {
