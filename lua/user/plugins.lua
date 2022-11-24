@@ -122,6 +122,7 @@ local plugins = {
 	["JoosepAlviste/nvim-ts-context-commentstring"] = {},
 	["p00f/nvim-ts-rainbow"] = {},
 	["nvim-treesitter/playground"] = {},
+  ["nvim-treesitter/nvim-treesitter-context"] = {},
 
 	-- Auto closing
 	-- ["windwp/nvim-autopairs"] = {
