@@ -40,6 +40,7 @@ mason_lsp.setup({
 		"dockerls",
 		"sumneko_lua",
 		"jsonls",
+		"typescript-language-server",
 	},
 	-- auto-install configured servers (with lspconfig)
 	automatic_installation = true, -- not the same as ensure_installed
