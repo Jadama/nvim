@@ -31,6 +31,7 @@ keymap("n", "<leader>tb", ":TagbarToggle<CR>", opts)
 keymap("n", "<leader>d", '"_d', opts)
 keymap("n", "<leader>y", '"+y', opts)
 keymap("n", "<leader>p", '"+p', opts)
+keymap("n", "]]", "<Cmd>call search('[([{<]')<CR>", opts)
 
 -- Open WhichKey
 keymap("n", "<C-Space>", "<cmd>WhichKey \\<leader><cr>", opts)
@@ -108,7 +109,7 @@ vnoremap("<leader>d", '"_d')
 inoremap("<C-c>", "<Esc>")
 
 -- Tabs --
-keymap("n", "<enter>", ":tabnew %<cr>", opts)
+keymap("n", "M-<enter>", ":tabnew %<cr>", opts)
 keymap("n", "<s-enter>", ":tabclose<cr>", opts)
 keymap("n", "<m-\\>", ":tabonly<cr>", opts)
 -- Change tabs
