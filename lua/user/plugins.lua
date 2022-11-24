@@ -120,11 +120,11 @@ local plugins = {
 	["nvim-treesitter/playground"] = {},
 
 	-- Auto closing
-	["windwp/nvim-autopairs"] = {
-		config = function()
-			require("plugins.autopairs")
-		end,
-	},
+	-- ["windwp/nvim-autopairs"] = {
+	-- 	config = function()
+	-- 		require("plugins.autopairs")
+	-- 	end,
+	-- },
 	["windwp/nvim-ts-autotag"] = {},
 
 	-- Git integration
