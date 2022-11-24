@@ -27,19 +27,19 @@ neo_tree.setup({
       folder_open = "",
       folder_empty = "",
     },
-    git_status = {
-      symbols = {
-        added = "",
-        deleted = "",
-        modified = "",
-        renamed = "",
-        untracked = "",
-        ignored = "",
-        unstaged = "",
-        staged = "",
-        conflict = "",
-      },
-    },
+    -- git_status = {
+    --   symbols = {
+    --     added = "",
+    --     deleted = "",
+    --     modified = "",
+    --     renamed = "",
+    --     untracked = "",
+    --     ignored = "",
+    --     unstaged = "",
+    --     staged = "",
+    --     conflict = "",
+    --   },
+    -- },
   },
   window = {
     width = 30,

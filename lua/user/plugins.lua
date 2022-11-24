@@ -23,6 +23,7 @@ local plugins = {
 	-- Coloscheme
 	["Shatur/neovim-ayu"] = {},
 	["ellisonleao/gruvbox.nvim"] = {},
+  ["EdenEast/nightfox.nvim"] = {},
 
 	-- Whichkey
 	["folke/which-key.nvim"] = {
