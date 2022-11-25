@@ -53,6 +53,7 @@ local plugins = {
 			require("plugins.surround")
 		end,
 	},
+
 	-- Repeat plugin actions
 	["tpope/vim-repeat"] = {},
 
@@ -147,6 +148,9 @@ local plugins = {
 	["JoosepAlviste/nvim-ts-context-commentstring"] = {},
 	["p00f/nvim-ts-rainbow"] = {},
 	["nvim-treesitter/playground"] = {},
+	["nvim-treesitter/nvim-treesitter-textobjects"] = {
+		after = "nvim-treesitter",
+	},
 
 	-- Auto closing
 	["windwp/nvim-autopairs"] = {
