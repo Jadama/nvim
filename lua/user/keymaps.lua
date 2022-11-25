@@ -109,8 +109,8 @@ vnoremap("<leader>d", '"_d')
 inoremap("<C-c>", "<Esc>")
 
 -- Tabs --
-keymap("n", "<A-enter>", ":tabnew %<cr>", opts)
-keymap("n", "<S-enter>", ":tabclose<cr>", opts)
+keymap("n", "M-<enter>", ":tabnew %<cr>", opts)
+keymap("n", "<s-enter>", ":tabclose<cr>", opts)
 keymap("n", "<m-\\>", ":tabonly<cr>", opts)
 -- Change tabs
 -- This are configured in the QMK firmware
