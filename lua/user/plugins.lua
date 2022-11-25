@@ -53,7 +53,6 @@ local plugins = {
 			require("plugins.surround")
 		end,
 	},
-	
 	-- Repeat plugin actions
 	["tpope/vim-repeat"] = {},
 
