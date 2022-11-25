@@ -23,6 +23,7 @@ local plugins = {
 	-- Coloscheme
 	["Shatur/neovim-ayu"] = {},
 	["ellisonleao/gruvbox.nvim"] = {},
+	["EdenEast/nightfox.nvim"] = {},
 
 	-- Whichkey
 	["folke/which-key.nvim"] = {
@@ -53,7 +54,7 @@ local plugins = {
 			require("plugins.surround")
 		end,
 	},
-	
+
 	-- Repeat plugin actions
 	["tpope/vim-repeat"] = {},
 
