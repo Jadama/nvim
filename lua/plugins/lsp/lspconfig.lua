@@ -39,10 +39,10 @@ local on_attach = function(client, bufnr)
 	keymap.set("n", "<leader>o", "<cmd>LSoutlineToggle<CR>", opts) -- see outline on right hand side
 
 	-- Only jump to error
-	keymap.set("n", "[E", function()
+	keymap.set("n", "[e", function()
 		require("lspsaga.diagnostic").goto_prev({ severity = vim.diagnostic.severity.ERROR })
 	end, { silent = true })
-	keymap.set("n", "]E", function()
+	keymap.set("n", "]e", function()
 		require("lspsaga.diagnostic").goto_next({ severity = vim.diagnostic.severity.ERROR })
 	end, { silent = true })
 end
