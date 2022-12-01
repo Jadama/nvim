@@ -237,7 +237,7 @@ local plugins = {
 	},
 
 	-- Harpoon
-	["ThePrimeagen/harpoon"] = {
+	["RomanoZumbe/harpoon"] = {
 		config = function()
 			require("plugins.harpoon")
 		end,
