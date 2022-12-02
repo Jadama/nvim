@@ -106,6 +106,8 @@ local plugins = {
 			require("plugins.cmp")
 		end,
 	},
+	["github/copilot.vim"] = {},
+
 	-- Shippets
 	["L3MON4D3/LuaSnip"] = {},
 	["saadparwaiz1/cmp_luasnip"] = {},
